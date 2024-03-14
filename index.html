@@ -16,26 +16,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
         /* Your custom styles */
-        .shopping-list-container {
-            background-color: #000;
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
+          .shopping-list-container {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
 
-        .shopping-cart-list {
-            list-style: none;
-            padding: 0;
-        }
+    .shopping-cart-list {
+        list-style: none;
+        padding: 0;
+    }
 
-        .shopping-cart-item {
-            margin-bottom: 10px;
-        }
+    .shopping-cart-item {
+        margin-bottom: 10px;
+    }
 
-        .shopping-cart-item button {
-            margin-left: 10px;
-        }
+    .shopping-cart-item button {
+        margin-left: 10px;
+    }
 
         /* Lightbox2 arrow navigation */
         .lb-prev,
@@ -229,14 +234,14 @@
     <section class="banner" role="banner">
         <header id="header">
             <div class="header-content clearfix">
-                <img src="images/logo_black.png" alt="" width="397" height="97">
+                <img src="images/logo_black.png" alt="" width="359" height="68">
                 <!-- Toggle container for the navigation -->
               
                 <!-- Navigation -->
                 <nav class="navigation" role="navigation">
                    
-                </nav>
-            </div>
+              </nav>
+          </div>
         </header>
     </section>
 
@@ -260,7 +265,7 @@
         <a href="images/portfolio/IMG-20240311-WA0007.jpg" data-lightbox="product1"></a>
         <a href="images/portfolio/IMG-20240311-WA0014.jpg" data-lightbox="product1"></a>
     </div>
-    <button class="add-to-cart-btn" data-item="EU, PANTOFII SI VISELE" data-price="35">ADAUGĂ ÎN COȘ<span class="item-price">35 LEI</span></button>
+    <button class="add-to-cart-btn" data-item="EU, PANTOFII SI VISELE" data-price="35">ADAUGĂ ÎN COȘ<span class="item-price">&nbsp;35 LEI</span></button>
     <button class="view-more-btn view-more">VEZI MAI MULTE POZE</button>
 </div>
 
@@ -278,7 +283,7 @@
         <a href="images/portfolio/IMG-20240311-WA0014.jpg" data-lightbox="BE A SUPERHERO ,BE LIKE ME!" style="display:none;"></a>
         <a href="images/portfolio/IMG-20240311-WA0015.jpg" data-lightbox="BE A SUPERHERO ,BE LIKE ME!" style="display:none;"></a>
     </div>
-    <button class="add-to-cart-btn" data-item="BE A SUPERHERO ,BE LIKE ME!" data-price="40">ADAUGĂ ÎN COȘ<span class="item-price">40 LEI</span></button>
+    <button class="add-to-cart-btn" data-item="BE A SUPERHERO ,BE LIKE ME!" data-price="40">ADAUGĂ ÎN COȘ<span class="item-price">&nbsp;40 LEI</span></button>
     <button class="view-more-btn view-more">VEZI MAI MULTE POZE</button>
 </div>
 
@@ -301,7 +306,7 @@
                                 <a href="images/portfolio/IMG-20240311-WA0022.jpg" data-lightbox="CORSETUL, PRIETENUL MEU"
                                     style="display:none;"></a>
                             </div>
-                            <button class="add-to-cart-btn" data-item="CORSETUL, PRIETENUL MEU" data-price="35">ADAUGĂ ÎN COȘ<span class="item-price">35 LEI</span></button>
+                            <button class="add-to-cart-btn" data-item="CORSETUL, PRIETENUL MEU" data-price="35">ADAUGĂ ÎN COȘ<span class="item-price">&nbsp;35 LEI</span></button>
 
 
                             <button class="view-more-btn view-more">VEZI MAI MULTE POZE</button>
@@ -315,11 +320,11 @@
     <footer class="footer"></footer>
 
     <div class="shopping-list-container">
-       
-        <ul class="shopping-cart-list" id="shoppingCartList">
-            <!-- Shopping cart items will be added here dynamically -->
-        </ul>
-    </div>
+    <p style="text-align: center; font-size: 20px;">COSUL MEU</p>
+    <ul class="shopping-cart-list" id="shoppingCartList">
+        <!-- Shopping cart items will be added here dynamically -->
+    </ul>
+</div>
 
     <div class="checkout-overlay" id="checkoutBtn">COMANDA PE WHATSAPP</div>
     <div class="total-price">
@@ -346,11 +351,32 @@
         
         <p>O altă carte scrisă de Raluca Stoica, în limba engleză „Be a superhero, Be like me!" urmărește activitățile de zi cu zi ale copiilor preșcolari și subliniază importanța menținerii unei rutine adecvate, ceea ce reprezintă cheia succesului în a avea un copil echilibrat emoțional și psihic la sfârșitul zilei.</p>
         
-        <p>Cea de-a treia carte "Corsetul, prietenul meu" este dedicată tuturor copiilor și adolescenților care suferă de scolioză sau alte afecțiuni ale coloanei și trebuie să poarte corsetul la recomandarea doctorului ortoped. Toate cărțile Ralucai Stoica sunt pline de emoție, se simte daruirea si implicarea în a crea o lume mai bună, mai tolerantă, o lume in care ortezele sau corsetul sunt privite și vazute ca parte din normal, acceptate și iubite nu doar de ceic are trebuie sa le paorte,ci de toata lumea din jur.</p>
+        <p>Cea de-a treia carte "Corsetul, prietenul meu" este dedicată tuturor copiilor și adolescenților care suferă de scolioză sau alte afecțiuni ale coloanei și trebuie să poarte corsetul la recomandarea doctorului ortoped. Toate cărțile Ralucăi Stoica sunt pline de emoție, se simte dăruirea și implicarea în a crea o lume mai bună, mai tolerantă,  o lume în care ortezele sau corsetul sunt privite și văzute ca parte din normal, acceptate și iubite nu doar de cei care trebuie sa le poarte, ci de toată lumea din jur.</p>
     </div>
 
     <script>
         $(document).ready(function () {
+			var shoppingCart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
+            var shoppingListContainer = $('.shopping-list-container');
+
+            function updateShoppingListContainer() {
+                if (shoppingCart.length > 0) {
+                    shoppingListContainer.show();
+                } else {
+                    shoppingListContainer.hide();
+                }
+            }
+
+            function updateShoppingCartList() {
+                var shoppingCartList = $('#shoppingCartList');
+                shoppingCartList.empty();
+                for (var i = 0; i < shoppingCart.length; i++) {
+                    var item = shoppingCart[i];
+                    var listItem = $('<li class="shopping-cart-item">' + item.item + ' - ' + item.price + ' LEI<button class="remove-from-cart-btn" data-index="' + i + '">Șterge</button></li>');
+                    shoppingCartList.append(listItem);
+                }
+                updateShoppingListContainer();
+            }
             var shoppingCart = JSON.parse(localStorage.getItem('shoppingCart')) || [];
 
             function updateTotalPrice() {
